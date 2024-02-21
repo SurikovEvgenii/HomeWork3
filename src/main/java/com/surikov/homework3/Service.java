@@ -1,4 +1,4 @@
-package com.surikov.homework1;
+package com.surikov.homework3;
 
 public class Service {
 
@@ -8,6 +8,6 @@ public class Service {
     }
 
     public void info(){
-        System.out.println(this.getClass().getCanonicalName().toUpperCase());
+        System.out.println(this.getClass().getSimpleName());
     }
 }
