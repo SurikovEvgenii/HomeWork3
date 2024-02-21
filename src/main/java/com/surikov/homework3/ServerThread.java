@@ -1,4 +1,4 @@
-package com.surikov.homework1;
+package com.surikov.homework3;
 
 import java.io.*;
 import java.net.Socket;

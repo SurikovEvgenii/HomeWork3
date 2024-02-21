@@ -1,4 +1,4 @@
-package com.surikov.homework1;
+package com.surikov.homework3;
 
 public class Util {
     public static final int PORT = 8072;

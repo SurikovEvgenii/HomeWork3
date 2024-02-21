@@ -1,4 +1,4 @@
-package com.surikov.homework1;
+package com.surikov.homework3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class Client1 {
         String choice;
         String responce;
 
-        try(Socket socket = new Socket(InetAddress.getLocalHost(),Util.PORT);
+        try(Socket socket = new Socket(InetAddress.getLocalHost(), com.surikov.homework3.Util.PORT);
             PrintStream printStream = new PrintStream(socket.getOutputStream());
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
 
